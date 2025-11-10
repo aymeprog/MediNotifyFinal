@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ["cdn3.iconfinder.com"], // ✅ allow external profile image
+  },
 };
 
 export default nextConfig;
